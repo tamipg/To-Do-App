@@ -10,7 +10,8 @@
     },
     {
       "id": "000b",
-      "title": "Tarea de prueba 2"
+      "title": "Tarea de prueba 2",
+      "completed": true
     },
     {
       "id": "755d",
