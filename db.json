@@ -6,12 +6,15 @@
     },
     {
       "id": "7771",
-      "title": "Tarea de prueba"
+      "title": "Tarea de prueba",
+      "important": true,
+      "completed": true
     },
     {
       "id": "000b",
       "title": "Tarea de prueba 2",
-      "completed": true
+      "completed": true,
+      "important": true
     },
     {
       "id": "755d",

@@ -1,1 +1,6 @@
-<p>completed-tasks works!</p>
+<page-title></page-title>
+
+<div class="flex flex-col mt-6">
+<task-list [taskList]="taskList" 
+(completed)="onCompleted($event)" (important)="onImportant($event)"></task-list>
+</div>
