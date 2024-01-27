@@ -1,27 +1,33 @@
-# TodoApp
+# Todo App - Simple Task Management Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+![Todo App](https://i.ibb.co/r0X5yY7/todoapp.png)
 
-## Development server
+This is a straightforward task management application built with Angular. It enables users to add new tasks, mark them as completed, highlight important tasks, and delete tasks from the list.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Add Tasks:** Users can add new tasks to the list by entering text in the corresponding field and pressing the "Enter" key.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Mark as Completed:** Each task can be marked as completed with a simple click on the checkbox icon.
 
-## Build
+- **Highlight Important Tasks:** Important tasks can be highlighted with a star icon, which can be toggled on or off by clicking on it.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Delete Tasks:** Tasks can be removed from the list by clicking on the associated delete icon for each task.
 
-## Running unit tests
+## Setup and Usage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Install Dependencies:**
+   ```bash
+   npm install
 
-## Running end-to-end tests
+2. **Run the Application:**
+   ```bash
+   ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Access the Application:**
+   Visit http://localhost:4200/ in your browser to use the application.
+   
+## Technologies Used
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Angular 17:** The development framework used to build the user interface.
+- **json-server:** Serves as a test server to simulate CRUD operations on tasks.
